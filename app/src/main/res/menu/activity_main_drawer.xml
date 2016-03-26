@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dance"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dance Music Ringer" />
+        <item
+            android:id="@+id/nav_Deep"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Deep House Ringer" />
+        <item
+            android:id="@+id/nav_Electronic"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Electronic Ringer" />
+        <item
+            android:id="@+id/nav_Metal"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Heavy Metal Ringer"/>
+
+        <item
+            android:id="@+id/nav_Acoustic"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Acoustic Ringer"/>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
